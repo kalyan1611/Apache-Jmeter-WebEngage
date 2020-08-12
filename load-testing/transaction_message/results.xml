@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="127" it="0" lt="127" ct="0" ts="1597238876873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 99
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:27:56 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;068a5c8f-c51e-4126-bbc2-098c31c304be&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1597238880473" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 98
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:00 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;f92261a0-97c6-46b8-942f-5532f3cc5724&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238884073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:04 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1597238887673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 97
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:07 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;c29bea21-e3ff-4538-9c89-323a546e92d0&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1597238891274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 96
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:11 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;574ac171-b70c-4849-8a91-abbe631f023a&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1597238894873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 95
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:14 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;8246ad38-082d-4345-81aa-fb9d2c726571&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1597238898474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 94
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:18 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;ba4852a2-6fe4-4376-8fd5-bda5abab94aa&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238902074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:22 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1597238905674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 93
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:25 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;93ea1ae1-6d01-48cb-af88-b20d8051d60b&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="51" it="0" lt="50" ct="0" ts="1597238909273" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 92
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:29 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;d451c8d0-8257-46a2-a42e-8c01120f3377&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1597238912874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 91
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:32 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;ad8b8961-9ad9-4766-bf32-c813aed9fed5&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1597238916472" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 90
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:36 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;25d438b0-ad07-4c65-b890-9c69c02f4741&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="0" ts="1597238920073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:40 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1597238923673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 89
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:43 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;39857840-1bd3-4eff-9682-484e2183b829&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1597238927274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 88
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:47 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;becc84ca-7384-4ca1-b850-b839deb9214a&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="96" it="0" lt="95" ct="0" ts="1597238930874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:50 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;b46de7ac-e011-41b5-9574-a1ac849d418c&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1597238934474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:54 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;1a933108-c34f-4b00-8aeb-d1b3d1285fee&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238938073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:58 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1597238941673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:01 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;a89a9873-aa8d-4706-9644-7c055d0e52fe&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1597238945273" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:05 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;a998d22e-8bc4-459c-8d74-d1613844c756&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1597238948872" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:08 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;8ff93d71-85ea-4432-affd-298cf04fef9c&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="60" it="0" lt="59" ct="0" ts="1597238952474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:12 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;4e5dc4b8-5b31-48cb-8e38-9ad8324f7950&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1597238956074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:16 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="88" it="0" lt="88" ct="0" ts="1597238959674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:19 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;68b513a5-7758-4316-a8af-9326bce75057&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="44" ct="0" ts="1597238963274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:23 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;eb2a04a1-5758-46be-a6f7-49e221ef937c&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1597238966873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:26 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;22d03b16-193d-44e6-87b7-fd2a64fb1c44&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597238970473" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:30 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;d4c21b79-c846-4890-850f-08611867f5e2&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238974074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:34 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1597238977673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:37 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;e6e796eb-eb6c-4d65-b4eb-ef0074cb0f50&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597238981274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:41 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;056cbf14-5b2b-447a-a781-d2d6f7969ef2&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1597238984874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:44 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;74c38c11-44f5-4b0d-907f-9ce0d6491dbd&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1597238988473" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:48 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;095ffe71-1825-473c-9208-bfd50d69eb38&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238992073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:52 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="62" ct="0" ts="1597238995674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:55 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;e891dc8c-4ecd-4f1e-82a8-4219f6678dee&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1597238999274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:59 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;30ce7b24-8838-4cfe-a62b-ec6df07f0e7e&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="43" ct="0" ts="1597239002874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:02 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;0beb413f-2611-4475-a866-f7cba5a47f5c&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597239006473" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:06 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;983e1622-86c9-46de-baf8-e73c44318c3b&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239010074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:10 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1597239013674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:13 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;10ba2168-aabb-4748-b5bf-89a556c8ad4a&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1597239017273" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:17 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;6229a1bf-133b-4428-8400-b8c38809e3f5&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1597239020873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:20 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;e78def8f-24e4-4ed5-8b8f-68be3b89b2eb&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1597239024474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:24 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;ed9975f5-b3ae-4b16-a9a8-0d987b25c34f&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="4" ct="0" ts="1597239028074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:28 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1597239031673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:31 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;360fb595-096d-484c-a11e-9297ef912c8c&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="47" ct="0" ts="1597239035273" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:35 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;426e2c90-a8ae-4110-83c7-6f42a3691b11&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1597239038872" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:38 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;8ad8c1ff-5cdb-4237-9fb8-33fee5926d7c&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1597239042474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:42 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;b642dd3f-3c27-4343-aa77-6131b0d7ba31&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239046073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:46 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1597239049673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:49 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;840bc361-b402-4594-b258-f56cd75862b9&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1597239053274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:53 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;b76a7a10-dc26-4150-b256-f98f7b233b63&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597239056874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:56 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;d5c2da1f-7428-4d5b-b167-ee5448f919a5&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="57" ct="0" ts="1597239060474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:00 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;73400a83-f691-48ea-a635-0cb69ad77285&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239064073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:04 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="61" ct="0" ts="1597239067674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:07 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;37b693d4-0782-4bfb-a392-b7c145cd6d13&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1597239071273" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:11 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;e862a244-de36-4ea6-8b72-7654a4ba900a&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597239074873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:14 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;9b92f6a1-22a2-4d98-94bb-fb4c2d4e08fe&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1597239078474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:18 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;0fcbecdf-8030-4e60-96e1-26371b193d4c&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239082074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:22 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1597239085673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:25 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;b4130967-99f4-4f65-b9d9-79623785c8c8&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1597239089274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:29 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;f9780631-248d-4122-8964-6adddb76eb49&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1597239092874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:32 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;1c2b4866-ea09-475f-964c-2cfde24250d7&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597239096472" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:36 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;496a587c-61f9-45b4-85fb-43f88224c057&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1597239100074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:40 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1597239103674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:43 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;c1dc6db5-2cae-4809-91bd-ad03472dcd63&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="96" it="0" lt="96" ct="0" ts="1597239107274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:47 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;db2c9b2d-d7d8-461f-ad60-809be1505efc&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597239110873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:50 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;dce94c7d-60f1-448e-b558-71368d509a47&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1597239114474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:54 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;d0dc534d-fc50-4c5a-b8c2-3b0ca16ed680&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239118073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:58 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="51" it="0" lt="51" ct="0" ts="1597239121674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:01 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;5ae4837d-ebce-403a-b70a-0d314b1b9897&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="44" ct="0" ts="1597239125273" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:05 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;6908d792-c369-43b2-9f85-c4d4f868ab0c&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1597239128873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:08 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;2ee87c0c-35ea-4e50-bafe-70c964799fca&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1597239132472" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:12 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;2e857923-ff7f-4ab6-abba-cef29198ba90&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="4" ct="0" ts="1597239136073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:16 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1597239139674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:19 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;16d5922c-2baf-428e-8ccc-0c8e4a3064a3&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="46" ct="0" ts="1597239143274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:23 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;3d7260a0-be33-4ae8-8a03-e83ede0d5dad&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597239146874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:26 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;9a44dc9d-2705-4096-9fc7-3e2169b3d4f1&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1597239150473" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:30 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;7ec06f86-6780-48d4-832a-1d443aff81b1&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239154073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:34 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="45" ct="0" ts="1597239157674" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:37 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;966e8d5d-82de-4d51-b648-4437c3035257&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1597239161272" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:41 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;76c405ae-e918-4c9a-9bc9-fee6cc3bb43d&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1597239164874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:44 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;643017f6-6cf9-404a-9d10-8ff325c282ac&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1597239168474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:48 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;6a073cad-c619-4e55-8055-763cb474fdcb&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1597239172074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:52 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="85" it="0" lt="85" ct="0" ts="1597239175673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:55 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;7afec8c0-55cc-41e5-96ed-360e51c2a2a1&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1597239179274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:59 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;26bec1a3-4c9f-4453-9f0e-a7f8adbae671&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1597239182874" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:02 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;9879ce67-b831-4189-b787-2d2a5f69e1bf&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1597239186474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:06 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;33bfee5a-d4e0-4732-ac70-97baa1972fc2&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1597239190074" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:10 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1597239193673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:13 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;905b0369-d7c9-4b0c-b9c0-0b1fcc69d599&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1597239197272" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:17 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;194e1ea8-a35c-4e4b-8237-7dfee4c7c08e&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1597239200873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:20 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;128c9250-8cac-4463-ac14-cf4d61363273&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1597239204474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:24 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;ec929096-11c3-4d7c-9223-8a1a4cd4cfa5&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239208073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:28 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1597239211673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:31 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;4794b3b2-80f9-4bbd-b231-707520a49e5f&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1597239215274" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:35 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;ee309042-0441-4ff9-b3d6-92fa1b671175&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1597239218873" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:38 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;0ca66f47-34ed-43c5-a048-01843e204773&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1597239222474" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:42 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;769d7217-0712-4f13-9de8-707f22172153&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1597239226073" s="true" lb="transaction_message" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:46 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="43" ct="0" ts="1597239229673" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:49 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;4561639f-781f-4727-8d8a-322736637d87&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1597239233273" s="true" lb="transaction_message" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="470" sby="480" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:53 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;data&quot;:{&quot;txnId&quot;:&quot;40239e88-ede3-4a1d-9fba-b5f400211162&quot;,&quot;experimentId&quot;:&quot;~2ask2s2&quot;,&quot;userId&quot;:&quot;kalyan.cherukuru&quot;,&quot;ttl&quot;:60},&quot;message&quot;:&quot;Success&quot;,&quot;status&quot;:&quot;success&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v2/accounts/~2024b249/experiments/~2ask2s2/transaction</java.net.URL>
+</httpSample>
+
+</testResults>

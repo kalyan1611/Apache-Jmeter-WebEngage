@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="164" it="0" lt="158" ct="61" ts="1597238874052" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 99
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:27:54 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="1" ts="1597238877482" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 98
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:27:57 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238881074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:01 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="1" ts="1597238884672" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 97
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:04 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238888273" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 96
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:08 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238891874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 95
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:11 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="1" ts="1597238895474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 94
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:15 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="6" ct="1" ts="1597238899074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:19 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238902674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 93
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:22 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="6" ct="1" ts="1597238906274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 92
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:26 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238909874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 91
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:29 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238913474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 90
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:33 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238917072" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:37 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="6" ct="1" ts="1597238920673" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 89
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:40 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238924274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 88
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:44 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="6" ct="1" ts="1597238927873" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:47 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="6" ct="1" ts="1597238931475" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:51 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="6" ct="1" ts="1597238935074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:55 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597238938674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:28:58 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="4" ts="1597238942275" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:02 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="6" ct="1" ts="1597238945872" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:05 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238949474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:09 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238953074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:13 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238956674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:16 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="0" ts="1597238960274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:20 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597238963874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:23 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597238967474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:27 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238971074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:31 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238974674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:34 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="1" ts="1597238978274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:38 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238981874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:41 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238985474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:45 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597238989074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:49 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597238992674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:52 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597238996274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:56 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597238999874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:29:59 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239003474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:03 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239007072" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:07 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="1" ts="1597239010674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:10 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239014273" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:14 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239017874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:17 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="1" ts="1597239021474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:21 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239025074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:25 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239028674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:28 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239032273" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:32 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239035872" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:35 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239039474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:39 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239043074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:43 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239046673" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:46 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239050273" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:50 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239053874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:53 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239057474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:30:57 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239061074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:01 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239064674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:04 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="1" ts="1597239068274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:08 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239071874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:11 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239075474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:15 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="7" ct="1" ts="1597239079077" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:19 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239082674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:22 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239086273" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:26 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239089873" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:29 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="2" ts="1597239093474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:33 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239097073" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:37 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239100674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:40 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239104274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:44 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239107874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:47 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239111474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:51 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="4" ct="0" ts="1597239115074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:55 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239118674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:31:58 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239122274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:02 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239125873" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:05 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="6" ct="0" ts="1597239129473" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:09 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1597239133073" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:13 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="234" it="0" lt="232" ct="1" ts="1597239136674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:16 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239140273" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:20 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239143874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:23 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="1" ts="1597239147474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:27 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239151074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:31 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239154673" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:34 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239158274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:38 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239161873" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:41 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239165473" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:45 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239169073" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:49 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1597239172674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:52 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="0" ts="1597239176274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:56 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239179874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:32:59 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239183473" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:03 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239187074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:07 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239190674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:10 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239194273" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:14 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239197873" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:17 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="1" ts="1597239201473" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:21 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="5" ct="0" ts="1597239205074" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:25 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="1" ts="1597239208674" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:28 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239212274" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:32 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239215874" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:35 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239219474" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:39 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239223073" s="true" lb="save_user" rc="429" rm="Internal Server Error" tn="Thread Group 1-1" dt="text" by="391" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 429 Internal Server Error
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:43 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;message&quot;:&quot;Rate limit exceeded for the API&quot;,&quot;status&quot;:&quot;error&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1597239226673" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:46 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1597239230273" s="true" lb="save_user" rc="201" rm="Created" tn="Thread Group 1-1" dt="text" by="335" sby="515" ng="1" na="1" hn="ip-192-168-218-228">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 201 Created
+Server: Resin/4.0.38
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 86
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 12 Aug 2020 13:33:50 GMT
+</responseHeader>
+  <responseData class="java.lang.String">{&quot;response&quot;:{&quot;status&quot;:&quot;queued&quot;}}</responseData>
+  <java.net.URL>http://api.webengage.net/v1/accounts/~2024b249/users</java.net.URL>
+</httpSample>
+
+</testResults>
